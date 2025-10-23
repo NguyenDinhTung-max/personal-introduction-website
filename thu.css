@@ -1,0 +1,88 @@
+/* Định dạng chung */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background: url('https://www.vietiso.com/images/c-02-1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  color: #333;
+  text-align: center;
+}
+p {
+    font-family: 'Poppins', sans-serif; /* Phông chữ hiện đại */
+    font-size: 18px;                     /* Cỡ chữ dễ đọc */
+    color: #333;                         /* Màu chữ xám đậm */
+    background: linear-gradient(135deg, #e3f2fd, #fff); /* Nền sáng nhẹ */
+    border-left: 5px solid #2196f3;      /* Thanh màu nổi bật bên trái */
+    padding: 15px 20px;                  /* Khoảng cách trong */
+    margin: 20px auto;                   /* Căn giữa và cách đều */
+    width: 80%;                          /* Giới hạn chiều rộng */
+    border-radius: 10px;                 /* Bo góc mềm mại */
+    box-shadow: 0 4px 10px rgba(43, 122, 43, 0); /* Đổ bóng nhẹ */
+    line-height: 1.6;                    /* Giãn dòng dễ đọc */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng khi hover */
+}
+
+p:hover {
+    transform: translateY(-5px);         /* Nổi lên nhẹ khi di chuột */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Thanh điều hướng */
+nav {
+  background-color: #0077cc;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hình ảnh chính */
+main img:first-of-type {
+  border-radius: 50%;
+  margin-top: 20px;
+  border: 3px solid #0077cc;
+}
+
+/* Danh sách ảnh */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+ul li img {
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Chân trang */
+footer {
+  background-color: #0077cc;
+  color: white;
+  padding: 15px;
+}
+
+footer a {
+  color: #ffea00;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
